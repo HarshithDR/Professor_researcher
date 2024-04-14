@@ -9,10 +9,13 @@ def main():
 
     if st.button("Submit"):
         # Send the text to the Flask server
-        response = requests.post("http://127.0.0.1:5000/chat", json={"text": user_input})
+        response = requests.get("http://127.0.0.1:5000/chat", json={"text": user_input})
+        print(ImportError(response))
         if response.status_code == 200:
             # Display the response from the Flask server
             st.text_area("Response:", value=response.json()['response'], height=200)
 
 if __name__ == "__main__":
     main()
+
+
