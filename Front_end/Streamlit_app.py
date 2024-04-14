@@ -9,7 +9,7 @@ def main():
 
     if st.button("Submit"):
         # Send the text to the Flask server
-        response = requests.post("http://127.0.0.1:5000/process_text", json={"text": user_input})
+        response = requests.post("http://127.0.0.1:5000/chat", json={"text": user_input})
         if response.status_code == 200:
             # Display the response from the Flask server
             st.text_area("Response:", value=response.json()['response'], height=200)
