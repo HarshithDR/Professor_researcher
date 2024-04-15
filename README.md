@@ -8,8 +8,7 @@ This repository contains code for a Streamlit app implementing an enhanced chatb
 
 ## Features
 
-- **PDF Upload**: Users can upload a PDF document containing relevant information.
-- **Question-Answering**: Users can ask questions related to the content of the uploaded PDF.
+- **Scraping**: our server will scrape the professors data from the college website and stores it vectorized form for further rag model.
 - **Response Generation**: The chatbot generates concise responses based on the context provided in the PDF.
 - **Metadata Handling**: Responses include metadata such as the filename and page number for citation purposes.
 
