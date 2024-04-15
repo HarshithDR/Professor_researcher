@@ -1,16 +1,67 @@
-# Scarlet-hacks
-Scarlet-hacks
+Certainly! Below is a README file for the provided code:
 
+---
 
-# list of all the universities in chicago
-- University of Chicago
-- Northwestern University (Evanston campus is nearby)
-- Illinois Institute of Technology
-- DePaul University
-- Loyola University Chicago
-- University of Illinois at Chicago
-- Columbia College Chicago
-- Roosevelt University
-- School of the Art Institute of Chicago
-- North Park University
+# RAG Enhanced Chatbot with Streamlit
 
+This repository contains code for a Streamlit app implementing an enhanced chatbot capable of answering questions based on the context provided in a PDF document. The chatbot utilizes OpenAI's GPT model for generating responses and FAISS for efficient similarity search over document embeddings.
+
+## Features
+
+- **PDF Upload**: Users can upload a PDF document containing relevant information.
+- **Question-Answering**: Users can ask questions related to the content of the uploaded PDF.
+- **Response Generation**: The chatbot generates concise responses based on the context provided in the PDF.
+- **Metadata Handling**: Responses include metadata such as the filename and page number for citation purposes.
+
+## Installation
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/your_username/rag-enhanced-chatbot.git
+   ```
+
+2. Navigate to the project directory:
+
+   ```bash
+   cd rag-enhanced-chatbot
+   ```
+
+3. Install dependencies:
+
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+## Usage
+
+1. Run the Streamlit app:
+
+   ```bash
+   streamlit run app.py
+   ```
+
+2. Upload a PDF document using the file uploader.
+3. Ask questions related to the content of the PDF in the provided text input.
+4. View the generated responses from the chatbot.
+
+## Implementation Details
+
+- **Backend**: Python code utilizing Streamlit for the web interface.
+- **OpenAI API**: Integration with OpenAI's GPT model for response generation.
+- **Document Processing**: PDF parsing and document embedding using FAISS for efficient similarity search.
+- **Frontend**: Streamlit's UI components for file upload and text input.
+
+## Contributors
+
+- Harshit Deshalli
+- Sachin Shivanna
+- Nischal
+- Uday Venkatesha
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+---
+
+Feel free to customize this README file with additional information or instructions specific to your project.
