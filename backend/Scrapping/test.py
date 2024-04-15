@@ -59,7 +59,6 @@ llm = HuggingFaceLLM(
     # model_kwargs={"torch_dtype": torch.float16 , "load_in_8bit":True}
 )
 
-
 embed_model=LangchainEmbedding(
     HuggingFaceEmbeddings(model_name="sentence-transformers/all-mpnet-base-v2"))
 
@@ -73,6 +72,6 @@ index=VectorStoreIndex.from_documents(documents,service_context=service_context)
 
 query_engine=index.as_query_engine()
 
-response=query_engine.query("what are some of the projects Sachin has been part of?")
+response=query_engine.query("what is neural network?")
 
 print(response)
