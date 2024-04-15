@@ -17,16 +17,11 @@ This repository contains code for a Streamlit app implementing an enhanced chatb
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your_username/rag-enhanced-chatbot.git
+   git clone https://github.com/HarshithDR/Scarlet-hacks
    ```
 
-2. Navigate to the project directory:
 
-   ```bash
-   cd rag-enhanced-chatbot
-   ```
-
-3. Install dependencies:
+2. Install dependencies:
 
    ```bash
    pip install -r requirements.txt
@@ -55,12 +50,8 @@ This repository contains code for a Streamlit app implementing an enhanced chatb
 
 - Harshit Deshalli
 - Sachin Shivanna
-- Nischal
+- Nishchal
 - Uday Venkatesha
-## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
----
 
 Feel free to customize this README file with additional information or instructions specific to your project.
