@@ -1,6 +1,4 @@
-Certainly! Below is a README file for the provided code:
 
----
 
 # RAG Enhanced Chatbot with Streamlit
 
